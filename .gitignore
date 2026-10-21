@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Environment variables & secrets
+.env
+.env.local
+*.env
+
+# Browser automation & Playwright
+.playwright/
+test-results/
+screenshots/
+traces/
+
+# Logs & temp
+*.log
+logs/
+temp/
+tmp/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
