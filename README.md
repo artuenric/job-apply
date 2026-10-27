@@ -107,7 +107,7 @@ Coloque seu currículo base em formato PDF na pasta [`assets/resumes/`](assets/r
 
 ## 📊 Pipeline de Vagas no Kanban (`.memorycard`)
 
-As oportunidades mapeadas são rastreadas pelo Kanban local:
+As oportunidades mapeadas são rastreadas pelo Kanban local, utilizando o modelo customizado de task `job` ([`.memorycard/models/job.md`](.memorycard/models/job.md)) conforme estabelecido pela [`RULE-004`](docs/rules/operational-rules.md#rule-004-estrutura-obrigatoria-de-dados-de-vagas-nas-tasks-do-kanban-memorycard):
 
 | Coluna | Descrição |
 | :--- | :--- |
@@ -118,6 +118,8 @@ As oportunidades mapeadas são rastreadas pelo Kanban local:
 | **Pendentes** | Vagas que exigiram intervenção humana (2FA, CAPTCHA, envio por e-mail ou pergunta desconhecida). |
 | **Expiradas** | Oportunidades pendentes ou aplicadas cujo prazo de validade expirou. |
 | **Concluídas** | Tarefas gerais e fluxos finalizados. |
+
+Cada task armazena estruturadamente: metadados da empresa/vaga, descrição completa, requisitos obrigatórios vs. desejáveis/diferenciais, prazos (descoberta, submissão, expiração, follow-up) e histórico de ocorrências.
 
 ---
 

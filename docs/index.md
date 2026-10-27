@@ -36,6 +36,7 @@ Regras mandatórias de execução, restrições e limites de atuação do agente
 | **`RULE-001`** | Supervisão Humana Mandatória (*Human-in-the-Loop*) em Etapas Críticas | Pausa mandatória para 2FA, envio final de formulários e knockout questions com dúvida | Bloqueante |
 | **`RULE-002`** | Arquitetura de Cérebro Único sem Dependências Externas de LLM | Proibição de scripts com chaves de API pagas ou servidores locais (Ollama/vLLM) | Mandatória |
 | **`RULE-003`** | Execução de Automação Estritamente via Browser Harness CDP | Toda ação deve ocorrer via interface `browser-use` conectada ao Chrome local | Mandatória |
+| **`RULE-004`** | Estrutura Obrigatória de Dados de Vagas nas Tasks do Kanban | Uso mandatório do modelo `job` com descrição, requisitos, diferenciais e prazos | Mandatória |
 
 ---
 

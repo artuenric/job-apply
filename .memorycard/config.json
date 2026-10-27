@@ -44,5 +44,5 @@
   "board": {
     "sort": "custom"
   },
-  "task_model": "default"
+  "task_model": "job"
 }

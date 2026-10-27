@@ -20,6 +20,7 @@ Antes de executar automações ou criar arquivos, consulte os contextos específ
 - **[`RULE-001`](docs/rules/operational-rules.md#rule-001-supervisao-humana-mandatoria-human-in-the-loop-em-etapas-criticas):** Supervisão Humana Mandatória (*Human-in-the-Loop*) em Etapas Críticas.
 - **[`RULE-002`](docs/rules/operational-rules.md#rule-002-arquitetura-de-cerebro-unico-sem-dependencias-externas-de-llm):** Arquitetura de Cérebro Único sem Dependências Externas de LLM.
 - **[`RULE-003`](docs/rules/operational-rules.md#rule-003-execucao-de-automacao-estritamente-via-browser-harness-cdp):** Execução de Automação Estritamente via Browser Harness CDP.
+- **[`RULE-004`](docs/rules/operational-rules.md#rule-004-estrutura-obrigatoria-de-dados-de-vagas-nas-tasks-do-kanban-memorycard):** Estrutura Obrigatória de Dados de Vagas nas Tasks do Kanban (Memorycard).
 
 ### 🏛️ Decisões Arquiteturais ([`docs/adr/browser-connection.md`](docs/adr/browser-connection.md))
 - **[`ADR-001`](docs/adr/browser-connection.md#adr-001-conexao-com-google-chrome-via-daemon-continuo-browser-use):** Conexão com Google Chrome via Daemon Contínuo (`browser-use`).
