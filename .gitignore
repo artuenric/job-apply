@@ -16,6 +16,7 @@ ENV/
 
 # Browser automation & Playwright
 .playwright/
+.browser_profile/
 test-results/
 screenshots/
 traces/
@@ -35,3 +36,10 @@ tmp/
 # OS files
 .DS_Store
 Thumbs.db
+
+# User Profile & Private Data (Source of Truth & Resumes)
+job-agent-config/0*.json
+job-agent-config/0*.md
+!job-agent-config/examples/**
+assets/resumes/*.pdf
+!assets/resumes/.gitkeep

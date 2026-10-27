@@ -3,22 +3,42 @@
     "id": "46c83625-d1c3-4590-beec-3b1c4dd8abec",
     "name": "job-apply"
   },
-  "next_task_id": 1,
+  "next_task_id": 2,
   "columns": [
     {
       "id": "todo",
-      "name": "Todo",
+      "name": "Descobertas",
       "order": 0
     },
     {
       "id": "in-progress",
-      "name": "In Progress",
+      "name": "Em Andamento",
       "order": 1
     },
     {
-      "id": "done",
-      "name": "Done",
+      "id": "aplicadas",
+      "name": "Aplicadas",
       "order": 2
+    },
+    {
+      "id": "aguardando-retorno",
+      "name": "Aguardando Retorno",
+      "order": 3
+    },
+    {
+      "id": "pendentes",
+      "name": "Pendentes",
+      "order": 4
+    },
+    {
+      "id": "expiradas",
+      "name": "Expiradas",
+      "order": 5
+    },
+    {
+      "id": "done",
+      "name": "Concluídas",
+      "order": 6
     }
   ],
   "board": {

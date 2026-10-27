@@ -1,0 +1,59 @@
+{
+  "phase": "03-profile-source-of-truth",
+  "personal_info": {
+    "full_name": "Seu Nome Completo",
+    "email": "seu.email.profissional@exemplo.com",
+    "phone_e164": "+5511999999999",
+    "location_city_state": "São Paulo, SP",
+    "country": "Brazil",
+    "links": {
+      "linkedin": "https://linkedin.com/in/seu-perfil",
+      "github": "https://github.com/seu-usuario",
+      "portfolio": "https://seu-site.com"
+    },
+    "resume_files": {
+      "pt_br_pdf_path": "assets/resumes/curriculo_principal.pdf",
+      "en_us_pdf_path": "assets/resumes/curriculo_en.pdf"
+    }
+  },
+  "anti_hallucination_rules": {
+    "never_alter_company_names_or_dates": true,
+    "never_claim_unlisted_tools": true,
+    "nda_sanitized": true
+  },
+  "work_experiences": [
+    {
+      "id": "exp_01",
+      "company": "Tech Solutions Ltda",
+      "official_linkedin_title": "Desenvolvedor de Software Pleno",
+      "start_date": "2023-01",
+      "end_date": "Present",
+      "work_model": "remote",
+      "summary_star": "Desenvolvimento de APIs escaláveis em Python e TypeScript, reduzindo latência de resposta em 40%.",
+      "key_deliveries": [
+        "Migração de serviços monolíticos para microsserviços conteinerizados com Docker.",
+        "Implementação de pipelines de CI/CD para deploy contínuo em nuvem.",
+        "Integração de gateways de pagamento e autenticação OAuth2."
+      ],
+      "tools_used": [
+        "Python",
+        "FastAPI",
+        "TypeScript",
+        "React",
+        "PostgreSQL",
+        "Docker"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Projeto Open Source Exemplo",
+      "url": "https://github.com/seu-usuario/projeto",
+      "description": "Ferramenta de automação CLI para processamento de dados.",
+      "technologies": [
+        "Python",
+        "Pydantic"
+      ]
+    }
+  ]
+}

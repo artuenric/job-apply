@@ -1,0 +1,41 @@
+{
+  "phase": "04-autonomy-and-operation",
+  "browser_config": {
+    "mode": "local_system_chrome",
+    "allow_window_resizing": false,
+    "max_steps_per_application": 25,
+    "save_screenshots_on_error": true
+  },
+  "rate_limits": {
+    "linkedin": {
+      "max_daily_applications": 20,
+      "min_delay_seconds": 60,
+      "max_delay_seconds": 180
+    },
+    "external_ats": {
+      "max_daily_applications": 25,
+      "min_delay_seconds": 45,
+      "max_delay_seconds": 120
+    }
+  },
+  "autonomy_and_hitl": {
+    "default_submission_mode": "HYBRID_CONFIDENCE_THRESHOLD",
+    "platform_overrides": {
+      "workday": "COPILOT_PAUSE_BEFORE_SUBMIT",
+      "linkedin": "HYBRID_CONFIDENCE_THRESHOLD"
+    },
+    "mandatory_pause_triggers": [
+      "SMS_OR_EMAIL_OTP_REQUIRED",
+      "CAPTCHA_DETECTED",
+      "UNMAPPED_KNOCKOUT_QUESTION",
+      "OPEN_ENDED_QUESTION_LOW_CONFIDENCE",
+      "SALARY_BELOW_MINIMUM_FLOOR"
+    ],
+    "human_notification_channel": "terminal_prompt"
+  },
+  "post_application": {
+    "save_local_audit_log": true,
+    "generate_interview_cheat_sheet": true,
+    "archive_destination": "memorycard_tasks"
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "phase": "02-knockout-rules",
+  "work_authorization": {
+    "Brazil": {
+      "legally_authorized_to_work": true,
+      "requires_visa_sponsorship_now_or_future": false
+    },
+    "United_States": {
+      "legally_authorized_local_employment": false,
+      "authorized_as_remote_foreign_contractor_b2b": true,
+      "requires_visa_sponsorship_now_or_future": false
+    },
+    "European_Union": {
+      "legally_authorized_local_employment": false,
+      "authorized_as_remote_foreign_contractor_b2b": true,
+      "requires_visa_sponsorship_now_or_future": false
+    },
+    "citizenships": [
+      "Brazilian"
+    ],
+    "has_active_contractor_entity_cnpj": true
+  },
+  "logistics_and_availability": {
+    "notice_period_days": 15,
+    "start_date_earliest": "2026-11-15",
+    "background_check_consent": true,
+    "drivers_license": "B",
+    "has_active_non_compete": false
+  },
+  "education_and_certifications": {
+    "highest_degree_level": "Bachelor's Degree",
+    "degree_name": "Ciência da Computação",
+    "status": "Completed",
+    "graduation_year": 2023,
+    "institution": "Universidade Exemplo",
+    "active_certifications": []
+  },
+  "skills_experience_years": {
+    "total_years_software_engineering": 4,
+    "technologies": {
+      "Python": 4,
+      "TypeScript": 3,
+      "Node.js": 3,
+      "React": 3,
+      "PostgreSQL": 3,
+      "Docker": 2,
+      "Git": 4,
+      "AWS": 2
+    },
+    "unmapped_technology_fallback": "PAUSE_OR_ZERO"
+  },
+  "demographics_eeoc": {
+    "policy": "DECLINE_TO_SELF_IDENTIFY"
+  }
+}

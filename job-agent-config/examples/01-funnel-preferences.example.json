@@ -1,0 +1,84 @@
+{
+  "phase": "01-funnel-preferences",
+  "roles": {
+    "primary_titles": [
+      "Desenvolvedor Full Stack",
+      "Software Engineer",
+      "Engenheiro de Software"
+    ],
+    "acceptable_synonyms": [
+      "Fullstack Developer",
+      "Backend Developer",
+      "Engenheiro Backend"
+    ],
+    "title_negative_keywords": [
+      "Estagiário",
+      "Intern",
+      "Junior",
+      "Tech Lead",
+      "Gerente",
+      "Sales"
+    ],
+    "seniority_levels": [
+      "Pleno",
+      "Mid-level",
+      "Senior"
+    ],
+    "languages": [
+      "pt-BR",
+      "en-US"
+    ]
+  },
+  "location_and_work_model": {
+    "accepted_models": [
+      "remote",
+      "hybrid"
+    ],
+    "base_city": "São Paulo",
+    "base_country": "Brazil",
+    "max_commute_km": 30,
+    "max_onsite_days_per_week": 2,
+    "willing_to_relocate": false,
+    "accepted_timezones": [
+      "UTC-3",
+      "UTC-4",
+      "UTC-5"
+    ]
+  },
+  "compensation": {
+    "BRL_CLT": {
+      "minimum_monthly": 8000,
+      "target_monthly": 12000,
+      "currency": "BRL"
+    },
+    "BRL_PJ": {
+      "minimum_monthly": 12000,
+      "target_monthly": 16000,
+      "currency": "BRL"
+    },
+    "USD_CONTRACTOR": {
+      "minimum_monthly": 3000,
+      "target_monthly": 5000,
+      "currency": "USD"
+    }
+  },
+  "funnel_rules": {
+    "min_match_score_percent": 75,
+    "max_job_age_hours": 72,
+    "max_active_applications_per_company": 1,
+    "company_cooldown_days": 30,
+    "enabled_platforms": [
+      "linkedin",
+      "greenhouse",
+      "lever"
+    ],
+    "blacklisted_companies": [
+      "Empresa Exemplo 1",
+      "Consultoria Indesejada Ltda"
+    ],
+    "tier_1_dream_companies": [
+      "Empresa dos Sonhos A",
+      "Empresa dos Sonhos B"
+    ]
+  }
+}
